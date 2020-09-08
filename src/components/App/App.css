@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap");
+
+:root {
+  --main-bg-color: #eae5e5;
+  --primary-color: #2F4F4F	;
+  --secondary-color: #ffa500;
+  --tertiary-color: #00bbff;
+  --text-color: #4d4d4d;
+  --mobile-width: 90%;
+}
+
+.App {
+  min-height: 100vh;
+  color: var(--text-color);
+  font-family: "Roboto Slab", serif;
+  background: var(--main-bg-color);
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+}
